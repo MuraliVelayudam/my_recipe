@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex h-screen items-center justify-center flex-col gap-4">
-      <h1 className="text-3xl md:text-4xl md:tracking-widest font-light">
+      <h1 className="text-2xl md:text-4xl md:tracking-widest font-light">
         Welcome To Recipes App
       </h1>
       <Link

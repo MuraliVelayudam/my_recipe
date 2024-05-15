@@ -8,9 +8,9 @@ export default function Home() {
       </h1>
       <Link
         href={"/recipes"}
-        className="font-semibold bg-blue-700 text-white p-4 rounded-full hover:ring-2 hover:ring-offset-1 ring-blue-500 transition-all duration-300 ease-in-out"
+        className="flex items-center gap-1 font-semibold bg-blue-700 text-white p-4 rounded-full hover:ring-2 hover:ring-offset-1 ring-blue-500 transition-all duration-300 ease-in-out"
       >
-        Explore Recipes ➡
+        Explore Recipes <span className="animate-pulse text-xl">➡</span>
       </Link>
     </div>
   );

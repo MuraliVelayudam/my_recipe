@@ -19,7 +19,6 @@ export default function RecipeDetails({ params }) {
   }
 
   const recipeDetail = data;
-  console.log(recipeDetail);
 
   return (
     <div className="flex flex-col p-10 gap-6 items-center justify-center">
